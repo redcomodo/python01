@@ -18,3 +18,12 @@ thisdict["phone"] = phone
 thisdict["address"] = address
 
 print(thisdict)
+
+def age_valdation(age):
+    if int(age) >= 18:
+        print("welcome in Python class")
+    else:
+        print("sorry")
+    return age
+
+age_valdation(thisdict["age"])
